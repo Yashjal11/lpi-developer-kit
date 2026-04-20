@@ -1,13 +1,21 @@
 ## HOW I DID IT - Yash Vardhan
 
-For Level 3, I created an AI agent using Python.
+Thanks for the feedback. I reviewed my submission and improved it.
 
-Initially, I tried connecting using requests but got connection errors.
+1. My earlier submission deserved a low score because it lacked depth, explainability, and clear evidence of tool usage.
 
-Then I fixed the issue by using subprocess to run LPI sandbox commands.
+2. My agent now runs the LPI sandbox and shows real outputs from:
+- query_knowledge
+- get_case_studies
 
-I also solved path issues so the agent could correctly run npm commands.
+3. If a user asks "why", the agent explains that it used structured outputs from LPI tools and clearly lists sources.
 
-Finally, the agent worked and returned output from LPI tools.
+4. I have now expanded HOW_I_DID_IT.md with real debugging steps and learning.
 
-I learned how AI agents connect with tools and how to debug real problems.
+5. I also added a proper README so anyone can run the project easily.
+
+Key improvement:
+I switched from a failing requests approach to a working subprocess-based integration.
+
+Next improvement:
+I would directly call LPI tools instead of test-client and improve output formatting.
